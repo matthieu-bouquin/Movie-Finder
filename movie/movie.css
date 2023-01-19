@@ -1,0 +1,28 @@
+.row{
+    flex-direction: row;
+}
+.card {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.card.not-visible {
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+#popup {
+    position: fixed;
+    max-width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
