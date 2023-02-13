@@ -1,6 +1,5 @@
-const apikey= "ad40f754"
+const apikey= "...."
 
 export default apikey;
-
-//apikey visible pour les corrections! 
+ 
 
